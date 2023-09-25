@@ -1,0 +1,73 @@
+.ak-logo {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 30px;
+}
+.about-container {
+  background-color: #a259ff;
+  padding: 20px;
+  /* height: 400px; */
+  /* width: 400px; */
+  border-radius: 20px;
+}
+.about-img {
+  height: 300px;
+  border-radius: 12px;
+}
+.about-text {
+  color: #fff;
+  font-size: 18px;
+}
+.select-country {
+  padding: 10px;
+  width: 120px;
+  outline: 0;
+  border-radius: 10px;
+  border: 0;
+  margin-right: 5px;
+}
+.login-section {
+  background-color: #f7f0ff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.number-input {
+  padding: 10px;
+  border-radius: 10px;
+  outline: 0;
+  border: 1px;
+  width: 250px;
+}
+.start-text {
+  font-size: 20px;
+}
+.continue-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #483287;
+  border-radius: 26px;
+  color: #fff;
+  border: 0;
+  outline: none;
+  padding: 14px;
+  gap: 8px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.continue-button:hover {
+  box-shadow: 0px 3px 0px grey;
+  transform: translateY(-3px);
+}
